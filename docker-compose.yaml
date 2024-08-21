@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+
+  api:
+    build: .
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      migrations:
+        condition: service_completed_successfully
+    env_file: .env
+
+  migrations:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file: .env
+    command: python3 manage.py migrate
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - "${DB_PORT}:5432"
+    env_file: .env
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U $DB_USER -d $DB_NAME"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+    volumes:
+      - postgres-unico:/var/lib/postgresql/data
+
+volumes:
+  postgres-unico:

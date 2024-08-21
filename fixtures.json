@@ -1,0 +1,130 @@
+[
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Стул офисный",
+      "description": "Регулируемый по высоте, черный кожаный",
+      "price": 295.00
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Настольная лампа",
+      "description": "Медный абажур, регулируемая яркость",
+      "price": 87.75
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Письменный стол",
+      "description": "Деревянный, с выдвижным ящиком",
+      "price": 450.00
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Шкаф для книг",
+      "description": "Широкий, с пятью полками",
+      "price": 620.50
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Ковер в спальню",
+      "description": "Шершавая текстура, размер 200x300 см",
+      "price": 215.80
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Велосипед городской",
+      "description": "С алюминиевой рамой и 21 передачей",
+      "price": 1200.00
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Кухонный набор",
+      "description": "10 предметов из нержавеющей стали",
+      "price": 150.00
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Радио",
+      "description": "С цифровым тюнером и Bluetooth",
+      "price": 49.99
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Микроволновка",
+      "description": "800 Вт, черный, с функцией гриля",
+      "price": 99.90
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Портативная колонка",
+      "description": "Водонепроницаемая, с поддержкой NFC",
+      "price": 75.45
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Электрический чайник",
+      "description": "1.7 литра, стальной корпус, автоматическое отключение",
+      "price": 32.60
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Телевизор LED",
+      "description": "43 дюйма, 4K разрешение, смарт-функции",
+      "price": 450.00
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Диван двухместный",
+      "description": "С мягкими подушками, ткань с водоотталкивающей пропиткой",
+      "price": 750.00
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Кровать с матрасом",
+      "description": "Размер 180x200 см, с ортопедическим матрасом",
+      "price": 950.00
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Кофеварка эспрессо",
+      "description": "С автоматическим капучинатором, 15 бар",
+      "price": 130.00
+    }
+  },
+  {
+    "model": "item.Item",
+    "fields": {
+      "name": "Сушилка для белья",
+      "description": "Складная, из нержавеющей стали",
+      "price": 40.00
+    }
+  }
+]
